@@ -3,7 +3,7 @@ function [xvect, xsection, xvalue, times, i] = Steffensen(head, toll, maxtimes, 
 % This fuction aims to find a root of <func> 
 % 
 %Detailed explanation goes here
-% This fuction aims to find a root of <func> in section [head, butt], under
+% This fuction aims to find a root of <func> in interval [head, butt], under
 % erorr <toll>, and under max loop times maxtimes
 % Output the vector of x <xvect>, the section of x <xsection>, 
 % the function value of x <xvalue> and run times <times>

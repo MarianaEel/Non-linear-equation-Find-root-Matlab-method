@@ -1,5 +1,5 @@
 % E.G Using Secant & Steffensen method to find root of 2*cos(x) = 1 +
-% sin(x) in section [0,1/4*pi]. toll=10^-8, Comparing their efficiency
+% sin(x) in interval [0,1/4*pi]. toll=10^-8, Comparing their efficiency
 
 % INITIATE INPUT
 func = @(x) -2*cos(x) + 1 + sin(x);
